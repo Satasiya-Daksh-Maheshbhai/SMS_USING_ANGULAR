@@ -1,59 +1,141 @@
-# StudentPortal
+# 🎓 Student Management Portal Using Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.1.
+![Angular](https://img.shields.io/badge/Framework-Angular-red)
+![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue)
+![Bootstrap](https://img.shields.io/badge/UI-Bootstrap-purple)
+![Status](https://img.shields.io/badge/Project-Active-brightgreen)
 
-## Development server
+🚀 **Student Management Portal** is a web-based application built using **Angular** that helps manage students, subjects, and marks efficiently.  
+The system provides **Admin and Student login functionality** where the admin can manage students and subjects, while students can view their academic marks.
 
-To start a local development server, run:
+This project demonstrates **Angular concepts such as components, event binding, data binding, CRUD operations, and session handling**.
+
+---
+
+# ✨ Features
+
+## 👨‍💼 Admin Features
+- 🔐 Secure **Admin Login**
+- ➕ **Add new students**
+- ✏️ **Edit student information**
+- ❌ **Delete students**
+- 📚 **Add / Update / Delete subjects**
+- 📝 **Assign marks to students for particular subjects**
+- 📊 Manage student academic data
+
+## 👩‍🎓 Student Features
+- 🔐 **Student Login**
+- 👀 View assigned **subject marks**
+- 📄 View personal academic information
+
+## ⚡ System Features
+- 🔄 Data persistence using **session/local storage**
+- 🌐 **Responsive UI** using Bootstrap
+- ⚙️ **Component-based Angular architecture**
+- 🧩 Clean and organized code structure
+- 🔔 Dynamic UI updates
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Angular | Frontend framework |
+| TypeScript | Application logic |
+| HTML5 | Page structure |
+| CSS3 | Styling |
+| Bootstrap | Responsive UI |
+| Angular CLI | Project management |
+
+---
+
+---
+
+# ▶️ How to Run the Project
+
+Follow these steps to run the project locally.
+
+## 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Satasiya-Daksh-Maheshbhai/SMS_USING_ANGULAR.git
+```
+
+---
+
+## 2️⃣ Navigate to the project folder
+
+```bash
+cd SMS_USING_ANGULAR
+```
+
+---
+
+## 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 4️⃣ Run the Angular application
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 5️⃣ Open in Browser
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Visit the following URL:
 
-```bash
-ng generate component component-name
+```
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+# 🎯 Learning Objectives
 
-## Building
+This project helps in understanding:
 
-To build the project run:
+- Angular **Component Architecture**
+- **Event Binding and Data Binding**
+- **CRUD Operations**
+- Angular **Forms and Validation**
+- **Session handling using browser storage**
+- Creating **interactive dashboards**
+- Building **responsive web applications**
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+# 📸 Screenshots (Optional)
 
-## Running unit tests
+You can add screenshots here:
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+- Admin Dashboard  
+- Student Login Page  
+- Add Student Page  
+- Subject Management Page  
+- Assign Marks Page  
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
+# 👨‍💻 Author
 
-For end-to-end (e2e) testing, run:
+**Daksh**
 
-```bash
-ng e2e
-```
+---
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+# ⭐ Support
 
-## Additional Resources
+If you like this project, please **give it a star ⭐ on GitHub**.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+# 📜 License
+
+This project is created for **educational and learning purposes**.
