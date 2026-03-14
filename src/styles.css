@@ -1,0 +1,18 @@
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: radial-gradient(circle at 10% 20%, #2b5876, #4e4376 45%, #231942 100%);
+  color: #111827;
+}
+
+.card,
+.alert,
+.table,
+.nav {
+  border-radius: 1rem;
+}

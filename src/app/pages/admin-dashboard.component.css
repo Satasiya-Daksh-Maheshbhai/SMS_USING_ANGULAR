@@ -1,0 +1,16 @@
+:host {
+  display: block;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.nav-pills .nav-link {
+  color: #16324f;
+  border-radius: 999px;
+}
+
+.nav-pills .nav-link.active {
+  background: linear-gradient(90deg, #1e4e8c, #0f7493);
+}
